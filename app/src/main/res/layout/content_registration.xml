@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.RegistrationActivity"
+    tools:showIn="@layout/activity_registration"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_backround">
+    <in.akhilgite.customexpandablelistview.utils.CustomEditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorWhite"
+        android:cursorVisible="true"
+        android:background="@color/colorGray"/>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="row_header">17sp</dimen>
+    <dimen name="row_details">12sp</dimen>
+    <dimen name="row_time">12sp</dimen>
+</resources>
